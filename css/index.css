@@ -85,7 +85,7 @@ a{
 	background-size: cover;
 }
 .hbs:nth-of-type(6) .hbimg{
-	background: url(../img/8.png) no-repeat center 0;
+	background: url(../img/10.png) no-repeat center 0;
 	background-size: cover;
 }
 .tou{
@@ -575,7 +575,7 @@ a{
 		font-weight: bold;
 	}
 	.ban .zi{
-		font-size: 4.5rem;	
+		font-size: 2.5rem;	
 	}
 	.main{
 		width: 100%;

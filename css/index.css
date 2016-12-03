@@ -1,5 +1,4 @@
-
-		
+	
 
 @font-face {
   font-family: 'robotolight';
@@ -85,7 +84,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 90%;
   vertical-align: baseline;
 }
 
@@ -845,7 +844,7 @@ h1, h2, h3, h4, h5 {
   color: #fff;
   cursor: pointer;
   z-index: 20;
-  background-color: #F03252;
+  background-color: #ccc;
 }
 
 .gallery-section .project-item .g6-btn i {
@@ -1010,6 +1009,11 @@ h1, h2, h3, h4, h5 {
 .site-footer a {
   color: #fff;
 }
-
-
-/* Custom */
+img{
+    -webkit-filter: grayscale(100%);
+    transition:all 0.5s ease-in-out;
+}
+img:hover{
+  -webkit-filter:grayscale(0);
+  
+}
